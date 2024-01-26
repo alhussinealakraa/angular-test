@@ -1,0 +1,7 @@
+<div>
+<h1>Id: {{user.id}}</h1>
+<div class="image-container" [ngStyle]="{backgroundImage: 'url(' + user.avatar + ')'}"></div>
+<h1>Name: {{user.first_name}} {{user.last_name}}</h1>
+<h1>Email: {{user.email}}</h1>
+</div>
+<button mat-raised-button (click)="goBack()" color="primary">Back</button>

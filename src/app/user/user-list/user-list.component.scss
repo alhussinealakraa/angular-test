@@ -1,0 +1,19 @@
+table {
+  width: 100%;
+}
+
+.full-width {
+  font-size: 14px;
+  width: 100%;
+}
+
+.image-container {
+  height: 50px;
+  width: 50px;
+  z-index: 1;
+  border-radius: 50%;
+  background-color: #fff;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 10px 10px 10px #6c93001a;
+}
